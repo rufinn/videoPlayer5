@@ -1,0 +1,1 @@
+- the TV can only recognize one person's fb friends

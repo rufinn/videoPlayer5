@@ -1,0 +1,58 @@
+<html>
+<head>
+<LINK REL=StyleSheet HREF="css/widget.css" TYPE="text/css">
+<!-- NODE -->
+<script type = "text/javascript" src = "http://137.189.97.35:39930/socket.io/socket.io.js"></script>
+
+<script type="text/javascript"    language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script> 
+<script type="text/javascript"    language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script> 
+<!-- FOR VIDEO PLAYER-->
+<script type='text/javascript' 	   language='javascript' src='$MANAGER_WIDGET/Common/af/2.0.0/loader.js'></script> 
+<!-- INTERNAL JS -->
+<script language="javascript" type="text/javascript" src="js/player.js"></script> 
+<script type="text/javascript"    language="javascript" src="js/main.js"></script> 
+<script type="text/javascript"    language="javascript" src="js/fb.js"></script> 
+<script type="text/javascript"    language="javascript" src="js/chat.js"></script> 
+
+</head>
+<body onload="Main.onLoad();">
+
+<!-- VIDEO PLUGIN -->
+<object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER" style="position:absolute; z-index:0; width:100%;height:100%"></object>
+<object id="pluginTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object> 
+
+<!-- TOOLS-->
+<div style="position: fixed; top:0px; left:0px; z-index:0;"><canvas id='board' width='1000' height='700'></canvas></div>
+<table style="position:fixed; z-index:10; top: 0px; left: 0px;" height="100%" width="100%">
+<colgroup width="70%"></colgroup>
+<colgroup id="widgetcol" style="background: rgba(0,0,0,0);" width="30%"></colgroup>
+<tr>
+	<td>
+		<div style="color: red;" id='tvToken'>TV Token</div>
+		<div id="tvToken_qr"></div>
+	</td>
+	<td>
+		<div id="usercol" style="display: none;">
+		<div style="position: absolute; top: 10px; color: white;">Online Users:</div>
+		<div style="position: absolute; top: 50px; color: yellow;" id="users_output"></div>
+		</div>
+	<!--</td>
+	<td>-->
+		<div id="chatcol" style="display: none;">
+		<div style="position: absolute; top: 10px; color: white;">Your conversation:</div>
+		<div style="position: absolute; top: 50px; color: blue;" id="chat_output"></div>
+		</div>
+	</td>	
+	
+</tr>
+</table>
+
+<script type="text/javascript"    language="javascript" src="js/userList.js"></script> 
+<script type="text/javascript"    language="javascript" src="js/socket.js"></script>
+
+<!-- Dummy anchor as focus for key events -->
+    <a href='javascript:void(0);'
+ id='anchor' onkeydown='Main.keyDown();'></a>
+ 
+</body>
+</html>

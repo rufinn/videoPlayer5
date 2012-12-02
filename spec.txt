@@ -1,0 +1,3 @@
+- show which user is watching
+- use fbv_server.js
+- fetch fb access token to get info

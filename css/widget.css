@@ -1,0 +1,20 @@
+/*
+#usercol{
+	display: none;
+}
+#chatcol{
+	display: none;
+}
+
+#widgetcol{
+	background: rgba(0,0,0,0);
+}
+*/
+.chat{
+	display: block;
+	width: auto;
+	color: #DDD;
+	border-style: groove;
+	border-color: blue;
+	padding: 2px;
+}

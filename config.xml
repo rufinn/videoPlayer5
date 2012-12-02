@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+    <previewjs>preview</previewjs>
+    <preIcon></preIcon>
+    <cpname>Samsung Music Hub</cpname>
+    <cplogo></cplogo>
+    <cpauthjs></cpauthjs>
+    <ThumbIcon>images/app_icons/MusicHubs106x87.png</ThumbIcon>
+    <BigThumbIcon>images/app_icons/MusicHubs115x95.png</BigThumbIcon>
+    <ListIcon>images/app_icons/MusicHubs85x70.png</ListIcon>
+    <BigListIcon>images/app_icons/MusicHubs95x78.png</BigListIcon>
+	<category>Lifestyle</category>
+    <ver>1.000</ver>
+    <mgrver>1.000</mgrver>
+    <fullwidget>y</fullwidget>
+    <srcctl>y</srcctl>
+    <ticker>n</ticker>
+    <childlock>n</childlock>
+    <audiomute>n</audiomute>
+    <videomute>n</videomute>
+    <dcont>y</dcont>
+    <type>user</type>
+    <widgetname>videoPlayer5</widgetname>
+    <description></description>
+    <width>960</width>
+    <height>540</height>
+    <author>
+            <name>Accedo Broadband</name>
+            <email>info@accedobroadband.com</email>
+            <link>http://www.accedobroadband.com</link>
+            <organization>Accedo Broadband</organization>
+    </author>
+</widget>
